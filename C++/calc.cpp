@@ -13,10 +13,10 @@ int main ()
     cout << "Segundo Numero? ";
     cin >> num2;
     cout << "Agora, Digite Um Dos Numeros de Indice Para Escolher o Que Deseja Fazer:\n";
-    cout << "1 - Somar\n";
-    cout << "2 - Subtrair\n";
-    cout << "3 - Multiplicar\n";
-    cout << "4 - Dividir\n";
+    cout << "[1] Somar\n";
+    cout << "[2] Subtrair\n";
+    cout << "[3] Multiplicar\n";
+    cout << "[4] Dividir\n";
     cout << "> ";
     cin >> opcao;
     if (opcao<=0)
